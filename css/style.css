@@ -1,5 +1,7 @@
-.site-nav a:hover,:focus {
+.site-nav a:hover,:focus,
+.site-adress a:hover,:focus {
  color: #2196F3;
+    }
+
     
-}
 
