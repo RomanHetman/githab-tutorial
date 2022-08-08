@@ -1,8 +1,19 @@
+.page-header{
+   background-color: #FFFFFF;;
+}
+
 .site-nav a:hover,:focus,
 .site-adress a:hover,:focus {
- color: #2196F3;
-    }
+ color: #2196F3;}
 
 .web span{
    color: #2196F3;
 }
+
+.work-page h1{background-color: #2F303A;}
+.work{color: #FFFFFF;}
+.button {background-color: #2196F3;
+}
+.work-info {background-color: #F5F5F5;}
+
+.work-work{ background-color: #F5F4FA;}
