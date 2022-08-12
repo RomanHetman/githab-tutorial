@@ -1,19 +1,50 @@
+/* ГЛАВНАЯ СТРАНИЦА */
+/* Шапка сайта */
 .page-header{
    background-color: #FFFFFF;;
 }
 
-.site-nav a:hover,:focus,
-.site-adress a:hover,:focus {
- color: #2196F3;}
 
+/* Навигация сайта */
+.site-nav:hover,
+.site-nav:focus,
+.site-adress:hover,
+.site-adress:focus {color: #2196F3;}
+
+
+/* Логотип */
 .web span{
    color: #2196F3;
 }
 
-.work-page h1{background-color: #2F303A;}
-.work{color: #FFFFFF;}
-.button {background-color: #2196F3;
-}
-.work-info {background-color: #F5F5F5;}
 
-.work-work{ background-color: #F5F4FA;}
+/* Навигация сайта */
+.work-page {background-color: #2F303A;}
+.work{color: #FFFFFF;}
+.button-one {background-color: #2196F3; color: #FFFFFF;
+}
+
+
+/* Услуги */
+.work-info h3{background-color: #F5F5F5; color: #212121;}
+.work-info p{color: #757575;}
+
+/* Команда разработчиков */
+.work-work h2,h3{ background-color: #F5F4FA; color: #212121;}
+.work-work p{color: #757575;}
+
+
+/* Контактне данные */
+.site-footer {background-color: #2F303A;}
+.adress {color: #FFFFFF;}
+.mail-phone {color: rgba(255,255,255,6) ;}
+
+/* СТРАНИЦА ПОРТФОЛИО */
+.work-portfolio{background-color: #F5F5F5;}
+.portfolio-img h3{color: #212121;}
+.portfolio-img p{color: #757575;}
+
+.button-portfolio {background-color:  #F5F4FA; color: #212121;}
+
+.button-portfolio:focus,
+.button-portfolio:hover {background: #2196F3;}
