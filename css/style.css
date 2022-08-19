@@ -1,9 +1,13 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 /* Шапка сайта */
 .page-header{
-   background-color: #FFFFFF;;
-}
-
+   background-color: #FFFFFF;}
+.web:hover{color: #2196F3;}
+.web {color: #212121;}
+.web:focus {color: #2196F3;}
+font-family: Roboto;
+font-size: 14px
+line-height: 1.14;
 
 /* Навигация сайта */
 .site-nav:hover,
@@ -13,16 +17,15 @@
 
 
 /* Логотип */
-.web span{
-   color: #2196F3;
-}
+.logo span{
+   color: #2196F3;}
+.logo{color: #000000 ;}
 
 
 /* Навигация сайта */
 .work-page {background-color: #2F303A;}
 .work{color: #FFFFFF;}
-.button-one {background-color: #2196F3; color: #FFFFFF;
-}
+.button{background-color: #2196F3;color: #FFFFFF;}
 
 
 /* Услуги */
@@ -43,6 +46,7 @@
 .work-portfolio{background-color: #F5F5F5;}
 .portfolio-img h3{color: #212121;}
 .portfolio-img p{color: #757575;}
+/* Быстрые кнопки */
 
 .button-portfolio {background-color:  #F5F4FA; color: #212121;}
 
