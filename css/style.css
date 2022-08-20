@@ -1,54 +1,119 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 /* Шапка сайта */
+
+/* Логотип */
+.logo span {color: #2196F3;}
+.logo {color: #000000;}
+.logo{font-family: 'Raleway',sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;}
+
 .page-header{
    background-color: #FFFFFF;}
 .web:hover{color: #2196F3;}
 .web {color: #212121;}
 .web:focus {color: #2196F3;}
-font-family: Roboto;
-font-size: 14px
-line-height: 1.14;
-
-/* Навигация сайта */
-.site-nav:hover,
-.site-nav:focus,
-.site-adress:hover,
-.site-adress:focus {color: #2196F3;}
-
-
-/* Логотип */
-.logo span{
-   color: #2196F3;}
-.logo{color: #000000 ;}
+.web{font-family: 'Roboto',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;}
 
 
 /* Навигация сайта */
 .work-page {background-color: #2F303A;}
-.work{color: #FFFFFF;}
-.button{background-color: #2196F3;color: #FFFFFF;}
+.work{color: #FFFFFF;
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;}
+.button{background-color: #2196F3;color: #FFFFFF;
+font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87}
 
 
 /* Услуги */
-.work-info h3{background-color: #F5F5F5; color: #212121;}
-.work-info p{color: #757575;}
+.work-info h3{background-color: #F5F5F5; color: #212121;
+font-family: 'Roboto',sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;}
+.work-info p{color: #757575;
+font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7}
 
 /* Команда разработчиков */
 .work-work h2,h3{ background-color: #F5F4FA; color: #212121;}
-.work-work p{color: #757575;}
+.work-work p{color: #757575;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.18}
+.work-work h2{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;}
+.work-work h3{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.18;}
 
 
 /* Контактне данные */
-.site-footer {background-color: #2F303A;}
+.site-footer {background-color: #2F303A;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71}
 .adress {color: #FFFFFF;}
 .mail-phone {color: rgba(255,255,255,6) ;}
 
 /* СТРАНИЦА ПОРТФОЛИО */
-.work-portfolio{background-color: #F5F5F5;}
-.portfolio-img h3{color: #212121;}
-.portfolio-img p{color: #757575;}
 /* Быстрые кнопки */
 
-.button-portfolio {background-color:  #F5F4FA; color: #212121;}
+.button-portfolio {
+   background-color: #F5F4FA;
+   color: #212121;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+}
+/* Работы сайта */
+.work-portfolio{background-color: #F5F5F5;}
+.portfolio-img h3{color: #212121;
+font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2}
+.portfolio-img p{color: #757575;
+font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 2;
+   letter-spacing: 0.03em;}
+
 
 .button-portfolio:focus,
 .button-portfolio:hover {background: #2196F3;}
